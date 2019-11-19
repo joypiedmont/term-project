@@ -1,0 +1,86 @@
+body {
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: Palatino, Constantia, "Times Roman", serif;
+	font-size: 100%;
+	background-color: #303;
+	position: relative;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin-top: 30px;
+	position: relative;
+	
+}
+.oneColElsCtrHdr #header {
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: medium;
+	position: relative;
+}
+.oneColElsCtrHdr #container #header h1 {
+	font-size: x-large;
+}
+.oneColElsCtrHdr #mainContent {
+	background: #FFFFFF;
+	min-height: 400px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	padding-top: 0px;
+	color: #000;
+	position: relative;
+}
+.oneColElsCtrHdr #container #mainContent h1 {
+	font-family: Palatino, Constantia, "Times Roman", serif;
+	font-size: 18px;
+}
+.oneColElsCtrHdr #container #mainContent p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+.naviUP {
+	text-decoration: underline;
+	color: #000;
+}
+.naviDOWN {
+	color: #C06;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+.imgleft {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	clear: both;
+	background-color: #FFF;
+	margin-top: 0px;
+}
