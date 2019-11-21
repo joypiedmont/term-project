@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>The 21st Century School Librarian | Encourage</title>
+<title>The 21st Century School Librarian | Adapt</title>
 <style type="text/css">
 <!--
 -->
@@ -17,24 +17,26 @@
         <table border="0" align="center" cellpadding="5" cellspacing="0">
       <tr>
         <td valign="middle" bgcolor="#FFCCCC">&nbsp; <a href="challenge.html"><span class="naviUP">Challenge</span></a> &nbsp;| </td>
-        <td valign="middle" bgcolor="#FFCCCC"><a href="encourage.html"><span class="naviDOWN">Encourage</span></a> &nbsp;| </td>
-        <td valign="middle" bgcolor="#FFCCCC"><a href="adapt.html"><span class="naviUP">Adapt</span></a> &nbsp;| </td>
+        <td valign="middle" bgcolor="#FFCCCC"><a href="encourage.html"><span class="naviUP">Encourage</span></a> &nbsp;| </td>
+        <td valign="middle" bgcolor="#FFCCCC"><a href="adapt.html"><span class="naviDOWN">Adapt</span></a> &nbsp;| </td>
         <td valign="middle" bgcolor="#FFCCCC"><a href="provide.html"><span class="naviUP">Provide</span></a> &nbsp;| </td>
         <td valign="middle" bgcolor="#FFCCCC"><a href="about.html"><span class="naviUP">About Me</span></a>&nbsp;</td>
       </tr>
     </table>
+
  	<!-- end #header --></div>
   <div id="mainContent">
-
-    <h1><em>Encourage...</em></h1>
-    <p>- Intellectual curiosity </p>
-    <p>- Critical thinking</p>
-    <p>- Awareness of important social issues locally and globally</p>
-    <p>&nbsp;</p>
+    <h1><em>Adapt...</em></h1>
+    <p>- With the ever-evolving tech landscape. </p>
+    <p>Will discuss: </p>
+    <p>- integration of Web 2.0 technologies with traditional classroom learning </p>
+    <p>- media literacy </p>
+    <p>- social networks </p>
+    <p>- natural <a href="http://www.schoollibraryjournal.com/community/Education+Technology/47063.html">classroom technology integration</a>.</p>
     <p>&nbsp;</p>
   <!-- end #mainContent --></div>
   <div id="footer">
-    <p><a href="index.html" class="naviUP">Home</a></p>
+    <p><a href="main.html" class="naviUP">Home</a></p>
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </body>

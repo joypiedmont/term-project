@@ -34,7 +34,7 @@
     <p>&nbsp;</p>
   <!-- end #mainContent --></div>
   <div id="footer">
-    <p><a href="index.html" class="naviUP">Home</a></p>
+    <p><a href="main.html" class="naviUP">Home</a></p>
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </body>
