@@ -2,6 +2,7 @@
 	font-family: archistico;
 	src: url(archistico_simple.ttf)
 	}
+	
 
 body {
 	background: #666666;
@@ -9,7 +10,7 @@ body {
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
-	font-family: Palatino, Constantia, "Times Roman", serif;
+	font-family: archistico, Palatino, Constantia, "Times Roman", serif;
 	font-size: 100%;
 	background-color: #303;
 	position: relative;
